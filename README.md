@@ -17,19 +17,11 @@ Installation
 Clone this repository:
 
 bash
-
-git clone https://github.com/yourusername/fastapi-crud.git
-cd fastapi-crud
-Create a virtual environment and activate it:
-
-bash
-
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
 bash
-
 pip install -r requirements.txt
 Set up the database:
 
@@ -38,7 +30,6 @@ Run migrations (if applicable).
 Start the application:
 
 bash
-
 uvicorn main:app --reload
 The API will be available at http://127.0.0.1:8000.
 
